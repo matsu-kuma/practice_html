@@ -1,7 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo');
+
 body{
   color: #333333;
   font-family: sans-serif;;
  }
+
+ /*page*/
+#pageBodyMain{
+  width: 720px;
+  background-color: #66CCFF;
+  float: left;
+}
+
+#pageBodySub{
+  width: 220px;
+  background-color: #99FF66;
+  float: right;
+}
+
+
+ /*ページヘッダー*/
+ #siteTitle{
+   font-size: 30px;
+   line-height:1.2;
+   margin-bottom: 0;
+   font-family: 'Macondo', cursive;
+ }
+
+ #catchcopy{
+   font-size: 12px;
+   line-height: 1.5;
+   margin-top: 5px;
+ }
+
+/*ページフッター*/
+#copyright #pageFoot small{
+  font-size: 12px;
+  line-height: 1.5;
+
+}
+
+#pageFoot{
+  border-top: solid 1px #CCCCCC;
+  margin-top: 15px;
+  clear: both;
+}
 
 p{
   font-size:14px;
@@ -38,6 +81,7 @@ table caption{
   text-align:left;
   font-weight: bold;
 }
+
 
 /*画像キャプション*/
 figcaption{
@@ -86,7 +130,7 @@ figcaption{
 
 .articleDetailBody section{
   margin:30px 0px;
-}
+
 
 .creditUnit{
   padding:10px;
