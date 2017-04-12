@@ -39,6 +39,11 @@ table caption{
   font-weight: bold;
 }
 
+/*画像キャプション*/
+figcaption{
+  font-size: 12px;
+}
+
 /*見出し*/
 .pageTitle{
   font-size: 26px;
