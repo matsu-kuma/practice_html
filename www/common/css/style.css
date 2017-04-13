@@ -5,7 +5,10 @@ body{
   font-family: sans-serif;;
  }
 
-
+#page{
+  width: 980px;
+  margin:0 auto;
+}
 
 
  /*page*/
@@ -30,15 +33,44 @@ body{
   float: right;
 }
 
+/* ---サブカラム内の装飾--- */
+#pageBodySub h2{
+  font-size: 16px;
+  line-height: 1.375;
+  padding: 5px;
+  margin-top: 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+/*おしらせ*/
+#pageBodySub .newsList ul{
+  list-style: none;
+  padding: 0;
+}
+
+#pageBodySub .newsList ul li{
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 10px 5px;
+}
+
+#pageBodySub .newsList ul li time{
+  font-weight: bold;
+  display: block;
+}
+
+
+/* ---メインカラム内の装飾--- */
+
  /*ページヘッダー*/
- #siteTitle{
+ #pageHead #siteTitle{
    font-size: 30px;
    line-height:1.2;
    margin-bottom: 0;
    font-family: 'Macondo', cursive;
  }
 
- #catchcopy{
+ #pageHead #catchcopy{
    font-size: 12px;
    line-height: 1.5;
    margin-top: 5px;
@@ -56,20 +88,20 @@ body{
   margin-top: 15px;
 }
 
-p{
+#pageBodyMain p{
   font-size:14px;
   line-height: 1.429;
  }
 
 /*リスト*/
-ul li{
+#pageBodyMain ul li{
   font-size: 14px;
   list-style-type:square;
   line-height: 1.429;
 }
 
 /*表*/
-table {
+#pageBodyMain table {
   font-size:14px;
   border:1px solid #333333;
   border-collapse: collapse;
@@ -77,29 +109,33 @@ table {
   line-height: 1.429;
 }
 
-table th, table td{
+#pageBodyMain table th, table td{
   border:1px solid #333333;
   padding:5px 10px;
 }
 
-table th{
+#pageBodyMain table th{
   background-color: #EEEEEE;
   text-align:left;
 }
 
-table caption{
+#pageBodyMain table caption{
   text-align:left;
   font-weight: bold;
 }
 
-
 /*画像キャプション*/
-figcaption{
+#pageBodyMain figcaption{
   font-size: 12px;
 }
 
+/*画像*/
+#pageBodyMain figure{
+  margin:0;
+}
+
 /*見出し*/
-.pageTitle{
+#pageBodyMain .pageTitle{
   font-size: 26px;
   background-color: #f2F2E5;
   padding: 5px 15px;
@@ -107,7 +143,7 @@ figcaption{
   margin-top: 0;
  }
 
-.heading-typeA{
+#pageBodyMain .heading-typeA{
   font-size: 18px;
   color:#349FA6;
   border-bottom: solid 1px #349FA6;
@@ -115,7 +151,7 @@ figcaption{
   line-height: 1.333;
  }
 
-.heading-typeB{
+#pageBodyMain .heading-typeB{
   font-size: 16px;
   border-left:solid 5px #E3E4D9;
   padding-left: 10px;
@@ -123,32 +159,32 @@ figcaption{
 
  }
 
-.heading-typeC{
+#pageBodyMain .heading-typeC{
   font-size: 14px;
   line-height: 1.429;
  }
 
-.articleDetailHead{
+#pageBodyMain .articleDetailHead{
   border-bottom:solid 1px #CCCCCC;
   margin-bottom:30px;
   padding-bottom: 15px;
 }
 
-.articleDetailFoot{
+#pageBodyMain .articleDetailFoot{
   margin-top:30px;
   padding-top: 15px;
 }
 
-.articleDetailBody section{
+#pageBodyMain .articleDetailBody section{
   margin:30px 0px;
 }
 
-.creditUnit{
+#pageBodyMain .creditUnit{
   padding:10px;
   border:solid 1px #CCCCCC;
 }
 
-.cresitUnit p{
+#pageBodyMain .cresitUnit p{
   font-size: 12px;
   line-height:1.5;
 }
