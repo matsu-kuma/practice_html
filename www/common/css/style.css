@@ -278,6 +278,30 @@ a:hover{
   line-height:1.5;
 }
 
+/*トップページ*/
+#pageBody .mainVisual .mainVisualText{
+  color: #FFF;
+  background-color: rgba(0,0,0,0.4);
+  width: 400px;
+  padding: 15px 25px;
+  -moz-box-sizing: border-top;
+  /*paddingをboxに含むためのもの*/
+  box-sizing: border-top;
+  
+}
+
+#pageBody .mainVisual .mainVisualText h1{
+  font-size: 26px;
+  line-height: 1.231;
+  margin: 0;
+}
+
+#pageBody .mainVisual .mainVisualText p{
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
 /*わたしたちについてのページ*/
 #pageBodyMain .imageCenter{
   text-align: center;
