@@ -313,6 +313,16 @@ a:hover{
   margin-bottom: 0;
 }
 
+#pageBody .mainVisual ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#pageBody .mainVisual ul li{
+  position: relative;
+}
+
 /*つくったものインデックス*/
 #pageBody .portfolioIndex{
   margin-top: 40px;
