@@ -279,7 +279,18 @@ a:hover{
 }
 
 /*トップページ*/
+#pageBody .mainVisual{
+  position: relative;
+}
+
+#pageBody .mainVisual img{
+  vertical-align: bottom;
+}
+
 #pageBody .mainVisual .mainVisualText{
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
   color: #FFF;
   background-color: rgba(0,0,0,0.4);
   width: 400px;
@@ -301,6 +312,71 @@ a:hover{
   line-height: 1.5;
   margin-bottom: 0;
 }
+
+/*つくったものインデックス*/
+#pageBody .portfolioIndex{
+  margin-top: 40px;
+}
+
+#pageBody .portfolioIndex:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ #pageBody .portfolioIndex article:first-child{
+  margin-left: 0px;
+ }
+
+#pageBody .portfolioIndex article{
+  width: 300px;
+  float: left;
+  margin-left: 40px;
+}
+
+#pageBody .portfolioIndex article h2{
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#pageBody .portfolioIndex article p{
+  font-size: 12px;
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+/*おしらせ*/
+#pageBody .news{
+  margin-top: 40px;
+}
+
+#pageBody .news h1{
+  font-size: 20px;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 5px 0;
+}
+
+#pageBody .news table{
+  width:100%;  
+}
+
+#pageBody .news table tr td{
+  width: 100%;
+}
+
+#pageBody .news table tr th,
+#pageBody .news table tr td{
+  font-size: 14px;
+  border-bottom: 1px dotted #CCCCCC;
+  padding: 10px 0;
+  vertical-align: top;
+}
+
+#pageBody .news table tr th{
+  white-space: nowrap;
+  padding-right: 30px;
+}
+
 
 /*わたしたちについてのページ*/
 #pageBodyMain .imageCenter{
