@@ -11,9 +11,13 @@
 
       <script src="common/js/jquery-3.2.1.min.js"></script>
       <script src="common/js/jquery.bxslider/jquery.bxslider.js"></script>
-      <link rel="stylesheet" href="common/js/squery.bxslider/jquery.bxslider.css">
+      <link rel="stylesheet" href="common/js/jquery.bxslider/jquery.bxslider.css">
       <script>$(document).ready(function(){
-  $('.bxslider').bxSlider();
+  $('.bxslider').bxSlider({
+    auto: true,
+    speed: 1000,
+    pause: 4000
+  });
 });</script>
 
   </header>
